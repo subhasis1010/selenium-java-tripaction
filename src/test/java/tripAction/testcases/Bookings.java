@@ -1,0 +1,77 @@
+/*
+This is the test case file and the below steps have been executed.
+1. Search for Hotels in Los Angeles
+2. Select start date as 2019-01-01 and end date as 2019-01-15
+3. Find the hotel with minimum price on checkout page
+
+I have implemented page object model concept here and couple of individual java class files have been created where
+the objects are stored and methods created to perform actions
+Also there are separate utility class, dataprovider class and a properties file
+ */
+
+package tripAction.testcases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import tripAction.dataprovider.ConfigDataProvider;
+import tripAction.pages.ResultsPage;
+import tripAction.pages.SearchPage;
+import tripAction.utility.Utility;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+public class Bookings {
+
+    WebDriver driver;
+    ConfigDataProvider config = new ConfigDataProvider();
+    Utility ul;
+    SearchPage searchPage;
+    ResultsPage resultsPage;
+
+    @BeforeMethod
+    public void setUp() {
+        System.setProperty("webdriver.chrome.driver", config.getChromePath());
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get(config.getApplicationURL());
+    }
+
+    @Test
+    public void searchHotels() {
+        ul = new Utility();
+        searchPage = new SearchPage(driver);
+        resultsPage = new ResultsPage(driver);
+        searchPage.searchCity();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        searchPage.autoComplete();
+        searchPage.setStartDate();
+        searchPage.setEndDate();
+        searchPage.clickSearchButton();
+
+        List<WebElement> listHotels = resultsPage.listHotels();
+        listHotels.get(ul.generateRandomNumber()).click();
+
+        String winHandleBefore = driver.getWindowHandle();
+        for (String winHandle : driver.getWindowHandles()) {
+            driver.switchTo().window(winHandle);
+        }
+
+        ArrayList<Float> priceList = new ArrayList<Float>();
+        List<WebElement> avgPrice = resultsPage.avgPrice();
+        for (WebElement a : avgPrice) {
+            priceList.add(ul.dataConversion(a.getText()));
+        }
+        System.out.println("Price of cheapest available room is " + ul.sortRates(priceList));
+    }
+
+    @AfterMethod
+    public void closeBrowser() {
+        driver.quit();
+    }
+}
