@@ -12,8 +12,8 @@ public class SearchPage {
     ConfigDataProvider config = new ConfigDataProvider();
     By searchCity = By.xpath("//input[@type='search']");
     By autoComplete = By.xpath("//li[@data-label = 'Los Angeles, California, USA']");
-    By startDate = By.xpath("//td[@data-date='" + config.getStartDate() + "']");
-    By endDate = By.xpath("//td[@data-date='" + config.getEndDate() + "']");
+    By startDate = By.xpath("//td[@data-date='" + config.getCheckinDate() + "']");
+    By endDate = By.xpath("//td[@data-date='" + config.getCheckoutDate() + "']");
     By searchButton = By.xpath("//span[text()='Search']");
     private WebDriver driver;
 

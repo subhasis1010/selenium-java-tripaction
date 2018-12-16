@@ -1,7 +1,7 @@
 /*
 This is the test case file and the below steps have been executed.
 1. Search for Hotels in Los Angeles
-2. Select start date as 2019-01-01 and end date as 2019-01-15
+2. Select start date as 2019-01-10 and end date as 2019-01-21
 3. Find the hotel with minimum price on checkout page
 
 I have implemented page object model concept here and couple of individual java class files have been created where
@@ -11,9 +11,11 @@ Also there are separate utility class, dataprovider class and a properties file
 
 package tripAction.testcases;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -38,6 +40,7 @@ public class Bookings {
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", config.getChromePath());
         driver = new ChromeDriver();
+        driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.get(config.getApplicationURL());
     }
@@ -67,7 +70,22 @@ public class Bookings {
         for (WebElement a : avgPrice) {
             priceList.add(ul.dataConversion(a.getText()));
         }
-        System.out.println("Price of cheapest available room is " + ul.sortRates(priceList));
+        //System.out.println("Price of cheapest available room is " + ul.sortRates(priceList));
+
+        String xpath = null;
+        float cheapestRoom = ul.sortRates(priceList);
+        int position = 0;
+        for (int i = 0; i < avgPrice.size(); i++) {
+            if (cheapestRoom == ul.dataConversion(avgPrice.get(i).getText())) {
+                position = i + 1;
+                break;
+            }
+        }
+
+        Select selRooms = new Select(driver.findElement(By.xpath(config.calculateXpathSelRooms(position))));
+        selRooms.selectByValue("1");
+
+        resultsPage.roomReserve();
     }
 
     @AfterMethod
