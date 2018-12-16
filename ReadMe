@@ -26,6 +26,7 @@ Test Cases: Bookings.class file is the class file where the test cases are imple
 Data Provider: Accesses all the data elements using methods from .properties file
 Pages: Page Object Model, where two seperate class files are created and objects pertaining to the respective pages are identified
 Utility: Includes the additional methods to have a successful test run
+TestNG annotations are used as a design pattern.
 
 
 
