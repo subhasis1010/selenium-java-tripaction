@@ -1,0 +1,32 @@
+Scenario Details: Retrieve the lowest priced hotel in Los Angeles on bookings.com
+
+Steps to execute:
+1. Download the project from github
+https://github.com/subhasis1010/selenium-java-tripaction.git
+2. Its a maven project and dependencies are located in pom.xml
+3. Execute the package as TestNG (Run -> All Test[TestNG])
+
+Project Structure:
+configurations
+    config.properties
+driver
+    chromedriver.exe
+src/test/java/tripAction
+    dataprovider
+        ConfigData.class
+    pages
+        ResultsPage.class
+        SearchPage.class
+    testcases
+        Bookings.class
+    utility
+        Utility.class
+
+Test Cases: Bookings.class file is the class file where the test cases are implemented
+Data Provider: Accesses all the data elements using methods from .properties file
+Pages: Page Object Model, where two seperate class files are created and objects pertaining to the respective pages are identified
+Utility: Includes the additional methods to have a successful test run
+
+
+
+

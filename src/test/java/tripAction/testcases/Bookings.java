@@ -3,10 +3,6 @@ This is the test case file and the below steps have been executed.
 1. Search for Hotels in Los Angeles
 2. Select start date as 2019-01-10 and end date as 2019-01-21
 3. Find the hotel with minimum price on checkout page
-
-I have implemented page object model concept here and couple of individual java class files have been created where
-the objects are stored and methods created to perform actions
-Also there are separate utility class, dataprovider class and a properties file
  */
 
 package tripAction.testcases;
