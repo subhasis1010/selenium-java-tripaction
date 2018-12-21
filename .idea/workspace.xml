@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56cb927a-7283-4f92-89c9-612784c8d14e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tripAction/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripAction/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tripAction/testcases/Bookings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripAction/testcases/Bookings.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tripAction/pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bookings.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Bookings.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tripAction/testcases/Bookings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="579">
+              <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="86" selection-end-column="5" />
               <folding>
                 <element signature="e#0#2952#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -171,12 +171,12 @@
         <option value="$PROJECT_DIR$/src/test/java/tripAction/utility/Utility.java" />
         <option value="$PROJECT_DIR$/src/test/java/tripAction/dataprovider/ConfigDataProvider.java" />
         <option value="$PROJECT_DIR$/configurations/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/tripAction/testcases/Bookings.java" />
         <option value="$PROJECT_DIR$/ReadMe" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/tripAction/pages/ResultsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tripAction/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tripAction/testcases/Bookings.java" />
       </list>
     </option>
   </component>
@@ -255,6 +255,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tripAction" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="seleniumcucumber-tripaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="seleniumcucumber-tripaction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tripAction" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -929,17 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tripAction/testcases/Bookings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#2952#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -970,6 +968,17 @@
         <state relative-caret-position="42">
           <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
           <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tripAction/testcases/Bookings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#2952#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>

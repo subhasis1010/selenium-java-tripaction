@@ -7,6 +7,7 @@ This is the test case file and the below steps have been executed.
 
 package tripAction.testcases;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -82,6 +83,7 @@ public class Bookings {
         selRooms.selectByValue("1");
 
         resultsPage.roomReserve();
+        Assert.assertTrue(1==1);
     }
 
     @AfterMethod
