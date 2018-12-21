@@ -1,0 +1,5 @@
+tripAction\testcases\Bookings.class
+tripAction\dataprovider\ConfigDataProvider.class
+tripAction\pages\ResultsPage.class
+tripAction\pages\SearchPage.class
+tripAction\utility\Utility.class

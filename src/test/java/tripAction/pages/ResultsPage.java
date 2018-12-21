@@ -1,5 +1,6 @@
 /*
 Includes all the results page related objects
+Made use of page object model
  */
 
 
