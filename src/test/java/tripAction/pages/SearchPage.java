@@ -1,5 +1,6 @@
 /*
 Includes all the search page related objects
+Implemented page object model here
  */
 
 package tripAction.pages;
