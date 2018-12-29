@@ -6,6 +6,13 @@ https://github.com/subhasis1010/selenium-java-tripaction.git
 2. Its a maven project and dependencies are located in pom.xml
 3. Execute the package as TestNG (Run -> All Test[TestNG])
 
+Maven Steps:
+1. Navigate to the maven folder where the project is cloned from github
+2. Use the below maven commands
+    mvn clean
+    mvn compile
+    mvn test
+
 Project Structure:
 configurations
     config.properties
