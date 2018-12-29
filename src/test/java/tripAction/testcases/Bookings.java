@@ -85,6 +85,7 @@ public class Bookings {
         resultsPage.roomReserve();
         Assert.assertTrue(1==1);
         Assert.assertTrue(0==0);
+        Assert.assertFalse(2==0);
     }
 
     @AfterMethod
