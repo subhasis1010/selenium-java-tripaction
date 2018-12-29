@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="65393" started-at="2018-12-21T08:44:28Z" finished-at="2018-12-21T08:45:34Z">
+  <suite name="TestSuite" duration-ms="42264" started-at="2018-12-29T23:33:36Z" finished-at="2018-12-29T23:34:18Z">
     <groups>
     </groups>
-    <test name="TripAction" duration-ms="65393" started-at="2018-12-21T08:44:28Z" finished-at="2018-12-21T08:45:34Z">
+    <test name="TripAction" duration-ms="42264" started-at="2018-12-29T23:33:36Z" finished-at="2018-12-29T23:34:18Z">
       <class name="tripAction.testcases.Bookings">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tripAction.testcases.Bookings@1e643faf]" name="setUp" is-config="true" duration-ms="34998" started-at="2018-12-21T00:44:28Z" finished-at="2018-12-21T00:45:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tripAction.testcases.Bookings@1e643faf]" name="setUp" is-config="true" duration-ms="14396" started-at="2018-12-29T15:33:36Z" finished-at="2018-12-29T15:33:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchHotels()[pri:0, instance:tripAction.testcases.Bookings@1e643faf]" name="searchHotels" duration-ms="28714" started-at="2018-12-21T00:45:03Z" finished-at="2018-12-21T00:45:32Z">
+        <test-method status="PASS" signature="searchHotels()[pri:0, instance:tripAction.testcases.Bookings@1e643faf]" name="searchHotels" duration-ms="25510" started-at="2018-12-29T15:33:50Z" finished-at="2018-12-29T15:34:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchHotels -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tripAction.testcases.Bookings@1e643faf]" name="closeBrowser" is-config="true" duration-ms="1661" started-at="2018-12-21T00:45:32Z" finished-at="2018-12-21T00:45:34Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tripAction.testcases.Bookings@1e643faf]" name="closeBrowser" is-config="true" duration-ms="2327" started-at="2018-12-29T15:34:16Z" finished-at="2018-12-29T15:34:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tripAction.testcases.Bookings -->
     </test> <!-- TripAction -->
-  </suite> <!-- Suite -->
+  </suite> <!-- TestSuite -->
 </testng-results>
