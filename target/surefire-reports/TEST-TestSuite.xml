@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite name="TestSuite" time="24.39" tests="2" errors="0" skipped="0" failures="1">
+=======
+<testsuite name="TestSuite" time="25.512" tests="1" errors="0" skipped="0" failures="0">
+>>>>>>> be686217a6247eda52911a65e6e76e5de70f1895
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Tripaction-Project"/>
@@ -140,6 +144,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="searchHotels" classname="tripAction.testcases.Bookings" time="24.288"/>
   <testcase name="testAssertions" classname="tripAction.testcases.Bookings" time="0.102">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
@@ -150,4 +155,7 @@
 	at tripAction.testcases.Bookings.testAssertions(Bookings.java:92)
 </failure>
   </testcase>
+=======
+  <testcase name="searchHotels" classname="tripAction.testcases.Bookings" time="25.512"/>
+>>>>>>> be686217a6247eda52911a65e6e76e5de70f1895
 </testsuite>

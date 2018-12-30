@@ -2,6 +2,7 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="TestSuite" duration-ms="24350" started-at="2018-12-30T02:09:09Z" finished-at="2018-12-30T02:09:33Z">
     <groups>
     </groups>
@@ -67,6 +68,22 @@
           </reporter-output>
         </test-method> <!-- testAssertions -->
         <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tripAction.testcases.Bookings@3ac3fd8b]" name="closeBrowser" is-config="true" duration-ms="2215" started-at="2018-12-29T18:09:33Z" finished-at="2018-12-29T18:09:35Z">
+=======
+  <suite name="TestSuite" duration-ms="42264" started-at="2018-12-29T23:33:36Z" finished-at="2018-12-29T23:34:18Z">
+    <groups>
+    </groups>
+    <test name="TripAction" duration-ms="42264" started-at="2018-12-29T23:33:36Z" finished-at="2018-12-29T23:34:18Z">
+      <class name="tripAction.testcases.Bookings">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tripAction.testcases.Bookings@1e643faf]" name="setUp" is-config="true" duration-ms="14396" started-at="2018-12-29T15:33:36Z" finished-at="2018-12-29T15:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchHotels()[pri:0, instance:tripAction.testcases.Bookings@1e643faf]" name="searchHotels" duration-ms="25510" started-at="2018-12-29T15:33:50Z" finished-at="2018-12-29T15:34:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotels -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tripAction.testcases.Bookings@1e643faf]" name="closeBrowser" is-config="true" duration-ms="2327" started-at="2018-12-29T15:34:16Z" finished-at="2018-12-29T15:34:18Z">
+>>>>>>> be686217a6247eda52911a65e6e76e5de70f1895
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
