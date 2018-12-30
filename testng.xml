@@ -2,8 +2,8 @@
 
 <suite name="TestSuite" verbose="1">
     <test name="TripAction">
-        <packages>
-            <package name = "selenium-java-tripaction.src.test.java.tripAction.testcases"/>
-        </packages>
+        <classes>
+            <class name = "tripAction.testcases.Bookings"/>
+        </classes>
     </test>
 </suite>

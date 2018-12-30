@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.645 sec <<< FAILURE!
-testAssertions(tripAction.testcases.Bookings)  Time elapsed: 0.102 sec  <<< FAILURE!
-java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at tripAction.testcases.Bookings.testAssertions(Bookings.java:92)
-
-=======
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.614 sec
->>>>>>> be686217a6247eda52911a65e6e76e5de70f1895
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.559 sec
