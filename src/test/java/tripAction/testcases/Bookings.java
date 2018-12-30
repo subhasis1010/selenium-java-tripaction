@@ -98,7 +98,7 @@ public class Bookings {
 
     @Test
     public void testAssertion3() {
-        Assert.assertTrue(2==2);
+        Assert.assertTrue(3==3);
     }
 
     @AfterSuite
