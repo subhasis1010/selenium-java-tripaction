@@ -6,7 +6,8 @@
             <class name="tripAction.testcases.Bookings">
                 <methods>
                     <include name = "searchHotels"/>
-                    <include name = "testAssertions"/>
+                    <include name = "testAssertions1"/>
+                    <include name = "testAssertions2"/>
                 </methods>
             </class>
         </classes>
