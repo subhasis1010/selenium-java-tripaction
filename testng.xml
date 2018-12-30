@@ -3,12 +3,7 @@
 <suite name="TestSuite" verbose="1">
     <test name="TripAction">
         <classes>
-            <class name="tripAction.testcases.Bookings">
-                <methods>
-                    <include name = "searchHotels"/>
-                    <include name = "testAssertions"/>
-                </methods>
-            </class>
+            <class name = "tripAction.testcases.Bookings"/>
         </classes>
     </test>
 </suite>

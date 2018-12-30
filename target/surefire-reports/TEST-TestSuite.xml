@@ -1,161 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testsuite name="TestSuite" time="24.39" tests="2" errors="0" skipped="0" failures="1">
-=======
-<testsuite name="TestSuite" time="25.512" tests="1" errors="0" skipped="0" failures="0">
->>>>>>> be686217a6247eda52911a65e6e76e5de70f1895
+<testsuite name="TestSuite" time="25.478" tests="3" errors="0" skipped="0" failures="1">
   <properties>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="Tripaction-Project"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Users\su6z4o7\.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="f6f2e2b77cb5a790"/>
-    <property name="POM_ARTIFACTID" value="selenium-cucumber"/>
-    <property name="os.name" value="Windows 7"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="selenium-cucumber"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="TEMP" value="C:\Users\su6z4o7\AppData\Local\Temp"/>
-    <property name="java.runtime.version" value="1.8.0_144-b01"/>
-    <property name="user.name" value="Su6z4o7"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files"/>
-    <property name="PROMPT" value="$P$G"/>
-    <property name="=A:" value="A:\"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="Tripaction-Project"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Tripaction-Project/4/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#4"/>
-    <property name="OneDrive" value="C:\Users\su6z4o7\OneDrive - Gap"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="OneDriveCommercial" value="C:\Users\su6z4o7\OneDrive - Gap"/>
-    <property name="LOCALAPPDATA" value="C:\Users\su6z4o7\AppData\Local"/>
-    <property name="java.version" value="1.8.0_144"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="user.timezone" value="America/Los_Angeles"/>
-    <property name="USERNAME" value="Su6z4o7"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="4"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="HOMEDRIVE" value="C:"/>
-    <property name="maven.conf" value="C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\conf"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="=::" value="::\"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="US"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="6.1"/>
-    <property name="=ExitCode" value="00000082"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Tripaction-Project/4/display/redirect"/>
-    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
-    <property name="TMP" value="C:\Users\su6z4o7\AppData\Local\Temp"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.version" value="25.144-b01"/>
-    <property name="user.variant" value=""/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Tripaction-Project/display/redirect"/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="FP_NO_HOST_CHECK" value="NO"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_144"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
-    <property name="ComSpec" value="C:\windows\system32\cmd.exe"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="HOMEPATH" value="\Users\su6z4o7"/>
-    <property name="USERDNSDOMAIN" value="AMERICAS.GAP.COM"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="user.script" value=""/>
-    <property name="COMPUTERNAME" value="L-SFM38WDJC2"/>
-    <property name="POM_GROUPID" value="org.cucumber.test"/>
-    <property name="user.home" value="C:\Users\su6z4o7"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Tripaction-Project-4"/>
-    <property name="JENKINS_SERVER_COOKIE" value="f6f2e2b77cb5a790"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Users\su6z4o7"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2/bin;C:\Program Files\Java\jdk1.8.0_144/bin;C:\Program Files\Java\jdk1.8.0_144/bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Box\Box Edit\;C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\su6z4o7\AppData\Local\Programs\Python\Python37-32;C:\Users\su6z4o7\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\su6z4o7\AppData\Local\Programs\Fiddler;."/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Users\su6z4o7\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2"/>
-    <property name="java.class.path" value="C:\Users\su6z4o7\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar;C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2 C:\Users\su6z4o7\.jenkins\war\WEB-INF\lib\remoting-3.27.jar C:\Users\su6z4o7\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\su6z4o7\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 62644"/>
-    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_144/bin;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Box\Box Edit\;C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\su6z4o7\AppData\Local\Programs\Python\Python37-32;C:\Users\su6z4o7\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\su6z4o7\AppData\Local\Programs\Fiddler"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
-    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_144/bin"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
-    <property name="SESSIONNAME" value="Console"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="M2_HOME" value="C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2"/>
-    <property name="Subver" value="601"/>
-    <property name="java.io.tmpdir" value="C:\Users\su6z4o7\AppData\Local\Temp\"/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="HUDSON_HOME" value="C:\Users\su6z4o7\.jenkins"/>
-    <property name="PATH+MAVEN" value="C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Tripaction-Project/4/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="SystemRoot" value="C:\windows"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="C:\Users\su6z4o7\Desktop\IMP\Selenium\workspace1\seleniumcucumber-tripaction"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/Tripaction-Project/"/>
-    <property name="LOGONSERVER" value="\\PPRCCINFDC001"/>
-    <property name="USERDOMAIN" value="AMERICAS"/>
-    <property name="line.separator" value="&#10;"/>
-    <property name="MAVEN_HOME" value="C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\su6z4o7\Desktop\IMP\Selenium\workspace1\seleniumcucumber-tripaction"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="Buildver" value="GAP_WIN7.00"/>
-    <property name="BUILD_NUMBER" value="4"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="PROCESSOR_REVISION" value="4e03"/>
-    <property name="UATDATA" value="C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\windows"/>
-    <property name="=C:" value="C:\Users\su6z4o7\Documents\Jenkins"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Users\su6z4o7\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
-    <property name="WORKSPACE" value="C:\Users\su6z4o7\.jenkins\workspace\Tripaction-Project"/>
-    <property name="maven3.interceptor.common" value="C:\Users\su6z4o7\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\su6z4o7\Desktop\IMP\Selenium\workspace1\seleniumcucumber-tripaction"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\su6z4o7\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Box\Box Edit\;C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\SourceGear\Common\DiffMerge\;C:\Users\su6z4o7\AppData\Local\Programs\Python\Python37-32;C:\Users\su6z4o7\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\su6z4o7\AppData\Local\Programs\Fiddler;."/>
+    <property name="maven.conf" value="C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\su6z4o7"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Su6z4o7"/>
+    <property name="java.class.path" value="C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\su6z4o7\Documents\Downloads\Maven\apache-maven-3.5.2-bin\apache-maven-3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-<<<<<<< HEAD
-  <testcase name="searchHotels" classname="tripAction.testcases.Bookings" time="24.288"/>
-  <testcase name="testAssertions" classname="tripAction.testcases.Bookings" time="0.102">
+  <testcase name="searchHotels" classname="tripAction.testcases.Bookings" time="25.441"/>
+  <testcase name="testAssertion1" classname="tripAction.testcases.Bookings" time="0.036"/>
+  <testcase name="testAssertion2" classname="tripAction.testcases.Bookings" time="0.001">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at tripAction.testcases.Bookings.testAssertions(Bookings.java:92)
+	at tripAction.testcases.Bookings.testAssertion2(Bookings.java:96)
 </failure>
   </testcase>
-=======
-  <testcase name="searchHotels" classname="tripAction.testcases.Bookings" time="25.512"/>
->>>>>>> be686217a6247eda52911a65e6e76e5de70f1895
 </testsuite>

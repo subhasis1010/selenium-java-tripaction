@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="56cb927a-7283-4f92-89c9-612784c8d14e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/java/tripAction/testcases/Bookings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tripAction/testcases/Bookings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/TripAction.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/TripAction.xml" beforeDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/ReadMe" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/TripAction.html" beforeDir="false" />
@@ -18,7 +16,6 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tripAction.testcases.Bookings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-tripAction.testcases.Bookings.xml" afterDir="false" />
->>>>>>> be686217a6247eda52911a65e6e76e5de70f1895
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/TripAction.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/classes.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/groups.html" beforeDir="false" />
