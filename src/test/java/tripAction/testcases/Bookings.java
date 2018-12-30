@@ -7,14 +7,14 @@ This is the test case file and the below steps have been executed.
 
 package tripAction.testcases;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import tripAction.dataprovider.ConfigDataProvider;
 import tripAction.pages.ResultsPage;
@@ -33,7 +33,7 @@ public class Bookings {
     SearchPage searchPage;
     ResultsPage resultsPage;
 
-    @BeforeMethod
+    @BeforeSuite
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", config.getChromePath());
         driver = new ChromeDriver();
@@ -83,11 +83,16 @@ public class Bookings {
         selRooms.selectByValue("1");
 
         resultsPage.roomReserve();
-        Assert.assertTrue(1==1);
-        Assert.assertTrue(0==0);
+
     }
 
-    @AfterMethod
+    @Test
+    public void testAssertions() {
+        Assert.assertTrue(1==1);
+        Assert.assertTrue(0==5);
+    }
+
+    @AfterSuite
     public void closeBrowser() {
         driver.quit();
     }
