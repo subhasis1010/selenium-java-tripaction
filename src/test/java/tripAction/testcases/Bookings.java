@@ -86,6 +86,11 @@ public class Bookings {
 
     }
 
+    @Test
+    public void testAssertion() {
+        Assert.assertTrue(1==1);
+    }
+
     @AfterSuite
     public void closeBrowser() {
         driver.quit();
