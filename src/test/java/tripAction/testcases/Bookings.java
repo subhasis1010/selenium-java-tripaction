@@ -87,8 +87,13 @@ public class Bookings {
     }
 
     @Test
-    public void testAssertion() {
+    public void testAssertion1() {
         Assert.assertTrue(1==1);
+    }
+
+    @Test
+    public void testAssertion2() {
+        Assert.assertTrue(1==2);
     }
 
     @AfterSuite
