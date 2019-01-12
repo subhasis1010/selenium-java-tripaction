@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-testing" />
+        <module name="com.learnautomation.cucumber" />
+        <module name="framework" />
         <module name="selenium-cucumber" />
-        <module name="selenium-java-tripaction" />
         <module name="seleniumcucumber" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api-testing" target="1.5" />
+      <module name="selenium-java-tripaction" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

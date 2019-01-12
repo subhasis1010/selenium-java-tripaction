@@ -4,8 +4,10 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$USER_HOME$/Documents/API Testing/MavenRESTAssured/pom.xml" />
+        <option value="$PROJECT_DIR$/../com.learnautomation.cucumber/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../seleniumcucumber/pom.xml" />
+        <option value="$PROJECT_DIR$/../JavaSeleniumCucumber/pom.xml" />
       </list>
     </option>
   </component>

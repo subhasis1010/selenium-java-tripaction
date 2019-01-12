@@ -93,7 +93,7 @@ public class Bookings {
 
     @Test
     public void testAssertion2() {
-        Assert.assertTrue(2==2);
+        Assert.assertTrue(2 ==2);
     }
 
     @Test
